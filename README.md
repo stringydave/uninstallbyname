@@ -35,3 +35,7 @@ ProductName | Display Name as it shows up in 'Programs and Features' or 'Add or 
 -1 | incorrect number of parameters, probably none or search string unquoted
 -2 | runaway count exceeded, check your search string.
 -3 | you asked us to process something which has an uninstall string we can't handle
+
+# TODO:
+we need to add code to the msiexec option: to suppress reboots
+msiexec /i "C:\package.msi" REBOOT=ReallySuppress
