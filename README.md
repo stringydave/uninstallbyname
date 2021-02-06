@@ -38,4 +38,5 @@ ProductName | Display Name as it shows up in 'Programs and Features' or 'Add or 
 
 # TODO:
 we need to add code to the msiexec option: to suppress reboots
+
 msiexec /i "C:\package.msi" REBOOT=ReallySuppress
